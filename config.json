@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "character": {
+    "name": "蓝色大肥鱼",
+    "callName": "肥鱼"
+  },
+  "ui": {
+    "title": "蓝色大肥鱼",
+    "balanceLabel": "余额",
+    "balanceLoading": "读取中…",
+    "balanceUnavailable": "余额不可用",
+    "balanceSignedOut": "未登录",
+    "rechargeLabel": "充值",
+    "bonusLabel": "赠送",
+    "menuTitle": "让它做什么",
+    "menuAutoLabel": "自动切换",
+    "menuAutoOn": "自动切换：开",
+    "menuAutoOff": "自动切换：关（已固定）",
+    "menuSettingsLabel": "设置…（双击也能打开）",
+    "menuQuitLabel": "退出桌宠",
+    "settings": {
+      "windowTitle": "桌宠设置",
+      "close": "✕",
+      "refreshBalance": "立即刷新余额",
+      "reset": "恢复默认",
+      "moveHome": "回到右下角",
+      "hint": "改完立刻生效，并存到 desktop-pet/settings.json。双击肥鱼、或右键选「设置」都能打开这里；面板可以拖动，Esc 关闭。",
+      "petSize": "大小",
+      "switchMin": "自动换姿势间隔（最短）",
+      "switchMax": "自动换姿势间隔（最长）",
+      "manualHold": "手动选完之后锁定",
+      "sleepAfter": "多久没操作就睡着",
+      "refreshEvery": "余额刷新频率",
+      "lowBalance": "余额偏低提醒阈值",
+      "autoRotate": "挂机时自动换姿势",
+      "rememberPos": "记住窗口位置"
+    },
+    "greetings": [
+      "我在呢~",
+      "今天也一起加油！",
+      "要吃点东西吗？",
+      "看着你干活呢",
+      "摸摸头也是可以的",
+      "又有新任务了吗？"
+    ],
+    "balanceGreetings": [
+      "余额还够吃饭的",
+      "钱要省着花哦",
+      "又给你省钱啦"
+    ],
+    "lowBalance": 3.0
+  },
+  "states": {
+    "smile": { "label": "微笑", "motion": "breathe" },
+    "sit": { "label": "端坐", "motion": "breathe" },
+    "cheer": { "label": "欢呼", "motion": "hop" },
+    "wave": { "label": "挥手", "motion": "sway" },
+    "think": { "label": "思考", "motion": "breathe" },
+    "shy": { "label": "害羞", "motion": "breathe" },
+    "flutter": { "label": "慌张", "motion": "tremble" },
+    "grin": { "label": "得意", "motion": "sway" },
+    "angry": { "label": "生气", "motion": "tremble" },
+    "cry": { "label": "委屈", "motion": "tremble" },
+    "read": { "label": "看报", "motion": "sway" },
+    "melon": { "label": "吃瓜", "motion": "breathe" },
+    "sleep": { "label": "睡着", "motion": "sleep" },
+    "rice": { "label": "干饭", "motion": "breathe" },
+    "hold": { "label": "端碗", "motion": "breathe" },
+    "scratch": { "label": "挠头", "motion": "sway" },
+    "eat": { "label": "吃东西", "motion": "breathe" }
+  },
+  "behaviour": {
+    "autoSwitchMinSeconds": 14,
+    "autoSwitchMaxSeconds": 30,
+    "fixedAfterManualSeconds": 120,
+    "sleepAfterIdleSeconds": 90,
+    "balanceRefreshSeconds": 5,
+    "balanceStaleSeconds": 5,
+    "displayScale": 0.58,
+    "window": { "width": 204, "height": 322 }
+  }
+}

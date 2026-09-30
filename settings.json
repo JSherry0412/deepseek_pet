@@ -1,0 +1,13 @@
+﻿{
+    "balanceRefresh":  5,
+    "windowLeft":  1302,
+    "autoSwitchMax":  30,
+    "lowBalance":  3,
+    "windowTop":  470,
+    "fixedAfterManual":  120,
+    "autoSwitchMin":  5,
+    "displayScale":  0.5,
+    "sleepAfterIdle":  30,
+    "rememberPosition":  true,
+    "autoEnabled":  true
+}
